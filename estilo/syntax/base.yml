@@ -1,0 +1,141 @@
+# BASE UI
+ColorColumn: ''
+Conceal: ''
+Cursor: ''
+CursorIM: ''
+CursorColumn: ''
+CursorLine: '- cursorline'
+CursorLineNR: 'cursorlinenumber'
+Directory: ''
+DiffAdd: ''
+DiffChange: ''
+DiffDelete: ''
+DiffText: ''
+ErrorMsg: ''
+VertSplit: 'linenumber bg'
+Folded: ''
+FoldColumn: ''
+SignColumn: ''
+IncSearch: ''
+LineNr: 'linenumber'
+MatchParen: ''
+ModeMsg: ''
+MoreMsg: ''
+
+# these are the tildes at the end which I've opted
+# to make disappear, but may not be preferred
+NonText: 'bg'
+
+Normal: 'fg bg'
+PMenu: ''
+PMenuSel: ''
+PmenuSbar: ''
+PmenuThumb: ''
+Question: ''
+Search: ''
+SpecialKey: ''
+SpellBad: ''
+SpellLocal: ''
+SpellCap: ''
+SpellRare: ''
+StatusLine: ''
+StatusLineNC: ''
+TabLine: ''
+TabLineFill: ''
+TabLineSel: ''
+Title: ''
+Visual: '- highlight'
+VisualNOS: ''
+WarningMsg: ''
+WildMenu: ''
+
+# BASE SYNTAX
+Comment: 'comment'
+Constant: ''
+String: 'string' # Constant
+Character: '' # Constant
+Boolean: '' # Constant
+Number: '' # Constant
+Float: '' # Constant
+Identifier: ''
+Function: '' # Identifier
+Statement: ''
+Conditional: '' # Statement
+Repeat: '' # Statement
+Label: '' # Statement
+Operator: '' # Statement
+Keyword: '' # Statement
+Exception: '' # Statement
+PreProc: ''
+Include: '' # PreProc
+Define: '' # PreProc
+Macro: '' # PreProc
+PreCondit: '' # PreProc
+Type: ''
+StorageClass: '' # Type
+Structure: '' # Type
+Typedef: '' # Type
+Special: ''
+SpecialChar: '' # Special
+Tag: '' # Special
+Delimiter: '' # Special
+SpecialComment: '' # Special
+Debug: '' # Special
+Underlined: ''
+Ignore: ''
+Error: ''
+Todo: ''
+
+# JavaScript
+jsArrowFuncArgs: 'lightblue'
+jsBraces: 'lightgray'
+jsComment: 'comment'
+jsExport: 'blue'
+jsFrom: 'blue'
+jsFuncBraces: 'lightgray'
+jsFuncCall: 'yellow'
+jsFuncArgs: 'lightblue'
+jsFuncName: 'yellow'
+jsFuncParens: 'lightgray'
+jsFunction: 'teal'
+jsImport: 'blue'
+jsModuleAs: 'blue'
+jsModuleAsterisk: 'orange'
+jsModuleBraces: 'lightgray'
+jsNumber: 'orange'
+jsBooleanTrue: 'orange'
+jsBooleanFalse: 'orange'
+jsObjectBraces: 'lightgray'
+jsObjectProp: 'blue'
+jsObjectValue: 'lightblue'
+jsObjectSeparator: 'lightgray'
+jsObjectColon: 'lightgray'
+jsParens: 'lightgray'
+jsReturn: 'blue'
+jsNoise: 'lightgray'
+jsStorageClass: 'teal'
+jsOperator: 'lightgray'
+jsGlobalObjects: 'yellow'
+jsTemplateBraces: 'pink'
+
+# JSON
+jsonBoolean: 'burntorange'
+jsonBraces: 'fg'
+jsonKeyword: 'lightblue'
+jsonFold: 'fg'
+jsonNoise: 'fg'
+jsonString: 'string'
+
+# YAML
+yamlBlockMappingKey: 'lightblue'
+yamlKeyValueDelimiter: 'fg'
+# jsonKeywordMatch: 'string'
+# jsonQuote: 'lightblue'
+
+# XML/React/HTML
+xmlTag: 'lightgray'
+xmlTagName: 'yellow'
+xmlEndTag: 'yellow'
+
+xmlAttrib: 'lightblue'
+xmlEqual: 'lightgray'

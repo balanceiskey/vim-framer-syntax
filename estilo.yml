@@ -1,0 +1,10 @@
+name: 'vim-framer-syntax'
+version: '1.0.0'
+license: 'MIT'
+author: ''
+url: ''
+description: ''
+colorschemes:
+  - name: vim-framer-syntax
+    background: 'dark'
+    palette: vim-framer-syntax

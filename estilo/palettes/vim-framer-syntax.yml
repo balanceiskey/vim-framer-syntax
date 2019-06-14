@@ -1,0 +1,36 @@
+bg: '#181818'
+fg: '#EEEEEE'
+cursorline: '#151515'
+linenumber: '#333333'
+cursorlinenumber: '#777777'
+highlight: '#3a3d41'
+
+comment: '#656565'
+
+# colors below did not quite line up, so I've made some tweaks. The original target color is posted for reference.
+
+# target: '#BA8CFC'
+string: '#BB89FF'
+
+# target: '#20bcfc'
+blue: '#00BBFF'
+
+# target: '#ACDDFD'
+lightblue: '#AADDFF'
+
+# target: '#fd886b'
+orange: '#FF8867'
+
+# target: '#cd917a', used for json bool
+burntorange: '#CE9178'
+
+lightgray: '#999999'
+
+# target: '#fecb6e'
+yellow: '#FFCC66'
+
+# target: '#32ccdc'
+teal: '#23CCDD'
+
+# total: '#EDACFD'
+pink: '#EEAAFF'
