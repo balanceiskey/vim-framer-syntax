@@ -58,12 +58,12 @@ Boolean: '' # Constant
 Number: '' # Constant
 Float: '' # Constant
 Identifier: ''
-Function: '' # Identifier
+Function: 'yellow' # Identifier
 Statement: ''
-Conditional: '' # Statement
+Conditional: 'blue' # Statement
 Repeat: '' # Statement
 Label: '' # Statement
-Operator: '' # Statement
+Operator: 'lightgray' # Statement
 Keyword: '' # Statement
 Exception: '' # Statement
 PreProc: ''
@@ -88,35 +88,37 @@ Todo: ''
 
 # JavaScript
 jsArrowFuncArgs: 'lightblue'
+jsBooleanFalse: 'orange'
+jsBooleanTrue: 'orange'
 jsBraces: 'lightgray'
+jsCatch: 'blue'
 jsComment: 'comment'
 jsExport: 'blue'
 jsFrom: 'blue'
+jsFuncArgs: 'lightblue'
 jsFuncBraces: 'lightgray'
 jsFuncCall: 'yellow'
-jsFuncArgs: 'lightblue'
 jsFuncName: 'yellow'
 jsFuncParens: 'lightgray'
 jsFunction: 'teal'
+jsGlobalObjects: 'yellow'
 jsImport: 'blue'
 jsModuleAs: 'blue'
 jsModuleAsterisk: 'orange'
 jsModuleBraces: 'lightgray'
+jsNoise: 'lightgray'
 jsNumber: 'orange'
-jsBooleanTrue: 'orange'
-jsBooleanFalse: 'orange'
 jsObjectBraces: 'lightgray'
-jsObjectProp: 'blue'
-jsObjectValue: 'lightblue'
-jsObjectSeparator: 'lightgray'
 jsObjectColon: 'lightgray'
+jsObjectProp: 'blue'
+jsObjectSeparator: 'lightgray'
+jsObjectValue: 'lightblue'
+jsOperator: 'lightgray'
 jsParens: 'lightgray'
 jsReturn: 'blue'
-jsNoise: 'lightgray'
 jsStorageClass: 'teal'
-jsOperator: 'lightgray'
-jsGlobalObjects: 'yellow'
 jsTemplateBraces: 'pink'
+jsTry: 'blue'
 
 # JSON
 jsonBoolean: 'burntorange'
@@ -133,9 +135,39 @@ yamlKeyValueDelimiter: 'fg'
 # jsonQuote: 'lightblue'
 
 # XML/React/HTML
+xmlAttrib: 'lightblue'
+xmlEndTag: 'yellow'
+xmlEqual: 'lightgray'
 xmlTag: 'lightgray'
 xmlTagName: 'yellow'
-xmlEndTag: 'yellow'
 
-xmlAttrib: 'lightblue'
-xmlEqual: 'lightgray'
+# vim
+vimAddress: 'pink'
+vimAutoCmd: 'blue'
+vimAutoEvent: 'lightblue'
+vimBracket: 'pink'
+vimCommand: 'blue'
+vimCommentTitle: 'lightgray'
+vimContinue: 'lightgray'
+vimFgBgAttrib: 'fg'
+vimHiCtermFgBg: 'lightblue'
+vimHiGroup: 'lightblue'
+vimHiGuiFgBg: 'lightblue'
+vimHiKeyList: 'lightblue'
+vimLet: 'teal'
+vimMap: 'blue'
+vimMapMod: 'pink'
+vimMapModKey: 'pink'
+vimNotation: 'pink'
+vimNumber: 'orange'
+vimOperParen: 'lightgray'
+vimOption: 'lightblue'
+vimParenSep: 'lightgray'
+vimSep: 'lightgray'
+vimSetSep: 'lightgray'
+vimSubst1: 'lightblue'
+vimSubstDelim: 'pink'
+vimSubstFlags: 'pink'
+vimUserFunc: 'yellow'
+vimVar: 'fg'
+
