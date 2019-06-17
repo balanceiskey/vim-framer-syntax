@@ -51,17 +51,17 @@ WildMenu: ''
 
 # BASE SYNTAX
 Comment: 'comment'
-Constant: ''
+Constant: 'orange'
 String: 'string' # Constant
 Character: '' # Constant
-Boolean: '' # Constant
-Number: '' # Constant
+Boolean: 'orange' # Constant
+Number: 'orange' # Constant
 Float: '' # Constant
 Identifier: ''
 Function: 'yellow' # Identifier
 Statement: ''
 Conditional: 'blue' # Statement
-Repeat: '' # Statement
+Repeat: 'blue' # Statement
 Label: '' # Statement
 Operator: 'lightgray' # Statement
 Keyword: '' # Statement
@@ -87,6 +87,7 @@ Error: ''
 Todo: ''
 
 # JavaScript
+jsArrowFunction: 'fg'
 jsArrowFuncArgs: 'lightblue'
 jsBooleanFalse: 'orange'
 jsBooleanTrue: 'orange'
@@ -106,6 +107,7 @@ jsImport: 'blue'
 jsModuleAs: 'blue'
 jsModuleAsterisk: 'orange'
 jsModuleBraces: 'lightgray'
+jsNull: 'orange'
 jsNoise: 'lightgray'
 jsNumber: 'orange'
 jsObjectBraces: 'lightgray'
@@ -119,6 +121,12 @@ jsReturn: 'blue'
 jsStorageClass: 'teal'
 jsTemplateBraces: 'pink'
 jsTry: 'blue'
+jsUndefined: 'orange'
+jsExportDefault: 'blue'
+jsGlobalNodeObjects: 'blue'
+jsException: 'blue'
+jsExceptions: 'yellow'
+jsRepeat: 'blue'
 
 # JSON
 jsonBoolean: 'burntorange'
@@ -170,4 +178,17 @@ vimSubstDelim: 'pink'
 vimSubstFlags: 'pink'
 vimUserFunc: 'yellow'
 vimVar: 'fg'
+
+# groovy
+groovyJDKBuiltin: 'teal'
+groovyParen: 'lightgray'
+groovyType: 'blue'
+groovyStatement: 'blue'
+groovyNumber: 'orange'
+groovyBoolean: 'orange'
+groovyELExpr: 'pink'
+groovySpecialChar: 'orange'
+groovyExceptions: 'blue'
+groovyUserLabel: 'lightblue'
+
 
