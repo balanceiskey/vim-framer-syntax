@@ -5,6 +5,9 @@ linenumber: '#333333'
 cursorlinenumber: '#777777'
 highlight: '#3a3d41'
 
+# target: '#2F3439'
+search: '#2E343A'
+
 comment: '#656565'
 
 # colors below did not quite line up, so I've made some tweaks. The original target color is posted for reference.
