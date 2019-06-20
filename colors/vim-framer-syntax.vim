@@ -4,7 +4,7 @@
 " URL: 
 " Author: 
 " License: MIT
-" Last Change: 2019/06/17 20:34
+" Last Change: 2019/06/19 21:07
 " ===============================================================
 
 set background=dark
@@ -122,6 +122,28 @@ hi groovyELExpr guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi groovySpecialChar guifg=#FF8867 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi groovyExceptions guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi groovyUserLabel guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownBlockquote guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownBold guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
+hi markdownBoldDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownCodeDelimiter guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownH1 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH2 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH3 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH4 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH5 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH6 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownHeadingDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownHeadingRule guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownId guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownIdDeclaration guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownItalic guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi markdownItalicDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownLinkText guifg=#BB89FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownListMarker guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownOrderedListMarker guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownUrl guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownUrlDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownUrlTitleDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
 " ===================================
