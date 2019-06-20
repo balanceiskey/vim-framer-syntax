@@ -18,7 +18,7 @@ FoldColumn: ''
 SignColumn: ''
 IncSearch: ''
 LineNr: 'linenumber'
-MatchParen: ''
+MatchParen: '- search'
 ModeMsg: ''
 MoreMsg: ''
 
@@ -127,6 +127,7 @@ jsGlobalNodeObjects: 'blue'
 jsException: 'blue'
 jsExceptions: 'yellow'
 jsRepeat: 'blue'
+jsIfElseBraces: 'lightgray'
 
 # JSON
 jsonBoolean: 'burntorange'
