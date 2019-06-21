@@ -2,25 +2,25 @@
 ColorColumn: ''
 Conceal: ''
 Cursor: ''
-CursorIM: ''
 CursorColumn: ''
+CursorIM: ''
 CursorLine: '- cursorline'
 CursorLineNR: 'cursorlinenumber'
-Directory: ''
 DiffAdd: ''
 DiffChange: ''
 DiffDelete: ''
 DiffText: ''
+Directory: ''
 ErrorMsg: ''
-VertSplit: 'linenumber bg'
-Folded: ''
 FoldColumn: ''
-SignColumn: ''
+Folded: ''
 IncSearch: ''
 LineNr: 'linenumber'
 MatchParen: '- search'
 ModeMsg: ''
 MoreMsg: ''
+SignColumn: ''
+VertSplit: 'linenumber bg'
 
 # these are the tildes at the end which I've opted
 # to make disappear, but may not be preferred
@@ -35,8 +35,8 @@ Question: ''
 Search: '- search'
 SpecialKey: ''
 SpellBad: ''
-SpellLocal: ''
 SpellCap: ''
+SpellLocal: ''
 SpellRare: ''
 StatusLine: ''
 StatusLineNC: ''
@@ -50,51 +50,55 @@ WarningMsg: ''
 WildMenu: ''
 
 # BASE SYNTAX
-Comment: 'comment'
-Constant: 'orange'
-String: 'string' # Constant
-Character: '' # Constant
 Boolean: 'orange' # Constant
-Number: 'orange' # Constant
-Float: '' # Constant
-Identifier: ''
-Function: 'yellow' # Identifier
-Statement: ''
+Character: '' # Constant
+Comment: 'comment'
 Conditional: 'blue' # Statement
-Repeat: 'blue' # Statement
-Label: '' # Statement
-Operator: 'lightgray' # Statement
-Keyword: '' # Statement
+Constant: 'orange'
+Debug: '' # Special
+Define: 'pink' # PreProc
+Delimiter: 'lightgray' # Special
+Error: ''
 Exception: '' # Statement
-PreProc: ''
+Float: '' # Constant
+Function: 'yellow' # Identifier
+Identifier: ''
+Ignore: ''
 Include: '' # PreProc
-Define: '' # PreProc
+Keyword: '' # Statement
+Label: '' # Statement
 Macro: '' # PreProc
+Number: 'orange' # Constant
+Operator: 'lightgray' # Statement
 PreCondit: '' # PreProc
-Type: ''
-StorageClass: '' # Type
-Structure: '' # Type
-Typedef: '' # Type
+PreProc: ''
+Repeat: 'blue' # Statement
 Special: ''
 SpecialChar: '' # Special
-Tag: '' # Special
-Delimiter: '' # Special
 SpecialComment: '' # Special
-Debug: '' # Special
-Underlined: ''
-Ignore: ''
-Error: ''
+Statement: ''
+StorageClass: '' # Type
+String: 'string' # Constant
+Structure: '' # Type
+Tag: '' # Special
 Todo: ''
+Type: ''
+Typedef: '' # Type
+Underlined: ''
 
 # JavaScript
-jsArrowFunction: 'fg'
 jsArrowFuncArgs: 'lightblue'
+jsArrowFunction: 'fg'
 jsBooleanFalse: 'orange'
 jsBooleanTrue: 'orange'
 jsBraces: 'lightgray'
 jsCatch: 'blue'
 jsComment: 'comment'
+jsDestructuringBraces: 'lightgray'
+jsException: 'blue'
+jsExceptions: 'yellow'
 jsExport: 'blue'
+jsExportDefault: 'blue'
 jsFrom: 'blue'
 jsFuncArgs: 'lightblue'
 jsFuncBraces: 'lightgray'
@@ -102,13 +106,15 @@ jsFuncCall: 'yellow'
 jsFuncName: 'yellow'
 jsFuncParens: 'lightgray'
 jsFunction: 'teal'
+jsGlobalNodeObjects: 'blue'
 jsGlobalObjects: 'yellow'
+jsIfElseBraces: 'lightgray'
 jsImport: 'blue'
 jsModuleAs: 'blue'
 jsModuleAsterisk: 'orange'
 jsModuleBraces: 'lightgray'
-jsNull: 'orange'
 jsNoise: 'lightgray'
+jsNull: 'orange'
 jsNumber: 'orange'
 jsObjectBraces: 'lightgray'
 jsObjectColon: 'lightgray'
@@ -117,23 +123,19 @@ jsObjectSeparator: 'lightgray'
 jsObjectValue: 'lightblue'
 jsOperator: 'lightgray'
 jsParens: 'lightgray'
+jsRepeat: 'blue'
 jsReturn: 'blue'
 jsStorageClass: 'teal'
 jsTemplateBraces: 'pink'
 jsTry: 'blue'
 jsUndefined: 'orange'
-jsExportDefault: 'blue'
-jsGlobalNodeObjects: 'blue'
-jsException: 'blue'
-jsExceptions: 'yellow'
-jsRepeat: 'blue'
-jsIfElseBraces: 'lightgray'
+jsEnvComment: 'lightgray'
 
 # JSON
 jsonBoolean: 'burntorange'
 jsonBraces: 'fg'
-jsonKeyword: 'lightblue'
 jsonFold: 'fg'
+jsonKeyword: 'lightblue'
 jsonNoise: 'fg'
 jsonString: 'string'
 
@@ -181,22 +183,23 @@ vimUserFunc: 'yellow'
 vimVar: 'fg'
 
 # groovy
-groovyJDKBuiltin: 'teal'
-groovyParen: 'lightgray'
-groovyType: 'blue'
-groovyStatement: 'blue'
-groovyNumber: 'orange'
 groovyBoolean: 'orange'
 groovyELExpr: 'pink'
-groovySpecialChar: 'orange'
 groovyExceptions: 'blue'
+groovyJDKBuiltin: 'teal'
+groovyNumber: 'orange'
+groovyParen: 'lightgray'
+groovySpecialChar: 'orange'
+groovyStatement: 'blue'
+groovyType: 'blue'
 groovyUserLabel: 'lightblue'
 
 # markdown
 markdownBlockquote: 'lightblue'
 markdownBold: 'lightblue - ib'
 markdownBoldDelimiter: 'lightgray'
-markdownCodeDelimiter: 'pink'
+markdownCode: 'pink'
+markdownCodeDelimiter: 'lightgray'
 markdownH1: 'fg - b'
 markdownH2: 'fg - b'
 markdownH3: 'fg - b'
@@ -216,5 +219,46 @@ markdownUrl: 'blue'
 markdownUrlDelimiter: 'lightgray'
 markdownUrlTitleDelimiter: 'lightgray'
 
+# terraform
+terraBraces: 'lightgray'
+terraBrackets: 'lightgray'
+terraSection: 'blue'
+terraStringInterp: 'pink'
 
+# zsh
+zshCommands: 'blue'
+zshDeref: 'pink'
+zshOldSubst: 'teal'
+zshOptStart: 'lightblue'
+zshQuoted: 'orange'
+zshShortDeref: 'pink'
+zshSubstDelim: 'pink'
+zshTypes: 'teal'
+zshKeyword: 'teal'
+zshKSHFunction: 'yellow'
+zshDelimiter: 'blue'
+
+# bash
+bashStatement: 'yellow'
+shOption: 'teal'
+shVariable: 'teal'
+shStatement: 'yellow'
+shDerefSimple: 'pink'
+shCmdSubRegion: 'pink'
+shSpecialNoZS: 'orange'
+shTestOpr: 'lightblue'
+shDeref: 'pink'
+shDerefVar: 'pink'
+shCaseLabel: 'orange'
+shSnglCase: 'teal'
+shDblBrace: 'lightgray'
+
+# NERD
+NERDTreeCWD: 'blue'
+NERDTreeDir: 'lightblue'
+NERDTreeDirSlash: 'fg'
+NERDTreeOpenable: 'lightgray'
+NERDTreeClosable: 'fg'
+NERDTreeUp: 'lightgray'
+NERDTreeExecFile: 'orange'
 
