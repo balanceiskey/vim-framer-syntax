@@ -143,7 +143,11 @@ jsonNoise: 'fg'
 jsonString: 'string'
 
 # YAML
+yamlBlockCollectionItemStart: 'lightgray'
 yamlBlockMappingKey: 'lightblue'
+yamlDocumentStart: 'lightgray'
+yamlFlowCollection: 'lightgray'
+yamlFlowIndicator: 'lightgray'
 yamlKeyValueDelimiter: 'fg'
 # jsonKeywordMatch: 'string'
 # jsonQuote: 'lightblue'
@@ -270,6 +274,25 @@ phpException: 'blue'
 phpMemberSelector: 'lightgray'
 phpStatement: 'blue'
 
+# python
+pythonImport: 'blue'
+pythonBuiltinObj: 'teal'
+pythonStatement: 'teal'
+pythonFunction: 'yellow'
+pythonClassVar: 'deeppink'
+pythonDecorator: 'pink'
+pythonDottedName: 'pink'
+pythonStrInterpRegion: 'pink'
+
+# ruby
+rubyConstant: 'deeppink'
+rubySymbol: 'lightblue'
+rubyControl: 'blue'
+rubyTodo: 'teal'
+# weird, these two refuse to work?
+# rubyKeywordAsMethod: 'yellow'
+# rubyLocalVariableOrMethod: 'yellow'
+
 # NERD
 NERDTreeCWD: 'blue'
 NERDTreeDir: 'lightblue'
@@ -278,4 +301,6 @@ NERDTreeOpenable: 'lightgray'
 NERDTreeClosable: 'fg'
 NERDTreeUp: 'lightgray'
 NERDTreeExecFile: 'orange'
+NERDTreeLinkFile: 'teal'
+NERDTreeLinkTarget: 'pink'
 
