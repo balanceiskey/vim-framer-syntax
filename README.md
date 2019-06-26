@@ -5,3 +5,13 @@
 
 A straight rip of [Framer X's beautiful in-app editor](https://www.framer.com/development/). It's faithful to Framer's original color choices and where necessary, makes tweaks that benefit Vim (think extensions like [lightline](https://github.com/itchyny/lightline.vim) and [ctrlp](https://github.com/kien/ctrlp.vim)) and non-JS based projects. It's built using [estilo](https://github.com/jacoborus/estilo). JavaScript was tuned against pangloss' [vim-javascript](https://github.com/pangloss/vim-javascript).
 
+
+## Install
+
+This'll work just fine with your Vim-plugin-manager-of-choice, just target this repo. With [vim-plug](https://github.com/junegunn/vim-plug) I do this:
+
+```
+Plug 'balanceiskey/vim-framer-syntax'
+```
+
+And run `:PlugInstall`. Set the color scheme by running `:color vim-framer-syntax` or updating your `.vimrc` with `color vim-framer-syntax`.
