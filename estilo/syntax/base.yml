@@ -293,6 +293,10 @@ rubyTodo: 'teal'
 # rubyKeywordAsMethod: 'yellow'
 # rubyLocalVariableOrMethod: 'yellow'
 
+# terraform
+terraModule: 'blue'
+terraValueVarSubscript: 'pink'
+
 # NERD
 NERDTreeCWD: 'blue'
 NERDTreeDir: 'lightblue'
