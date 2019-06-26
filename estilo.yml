@@ -8,3 +8,7 @@ colorschemes:
   - name: vim-framer-syntax
     background: 'dark'
     palette: vim-framer-syntax
+lightline:
+  - name: framer
+    palette: vim-framer-syntax
+    style: framer-lightline
