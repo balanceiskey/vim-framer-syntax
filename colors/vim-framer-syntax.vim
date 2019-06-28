@@ -4,7 +4,7 @@
 " URL: 
 " Author: 
 " License: MIT
-" Last Change: 2019/06/27 21:11
+" Last Change: 2019/06/28 09:29
 " ===============================================================
 
 set background=dark
@@ -152,12 +152,12 @@ hi markdownBold guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE gui=italic,bol
 hi markdownBoldDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCode guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH1 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi markdownH2 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi markdownH3 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi markdownH4 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi markdownH5 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi markdownH6 guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH1 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH2 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH3 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH4 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH5 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownH6 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi markdownHeadingDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi markdownHeadingRule guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownId guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -165,7 +165,7 @@ hi markdownIdDeclaration guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NO
 hi markdownItalic guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi markdownItalicDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownLinkText guifg=#BB89FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownListMarker guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownListMarker guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownOrderedListMarker guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrl guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrlDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
