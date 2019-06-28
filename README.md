@@ -15,3 +15,15 @@ Plug 'balanceiskey/vim-framer-syntax'
 ```
 
 And run `:PlugInstall`. Set the color scheme by running `:color vim-framer-syntax` or updating your `.vimrc` with `color vim-framer-syntax`.
+
+## Lightline
+
+To use the accompanying `lightline` theme, add the following to your `.vimrc`:
+
+```
+let g:lightline = {
+      \ 'colorscheme': 'framer',
+      \ }
+```
+
+
