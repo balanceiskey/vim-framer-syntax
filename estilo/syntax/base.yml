@@ -195,6 +195,7 @@ vimVar: 'fg'
 
 # groovy
 groovyBoolean: 'orange'
+groovyClassDecl: 'teal'
 groovyELExpr: 'pink'
 groovyExceptions: 'blue'
 groovyJDKBuiltin: 'teal'
@@ -202,6 +203,7 @@ groovyNumber: 'orange'
 groovyParen: 'lightgray'
 groovySpecialChar: 'orange'
 groovyStatement: 'blue'
+groovyStorageClass: 'teal'
 groovyType: 'blue'
 groovyUserLabel: 'lightblue'
 
