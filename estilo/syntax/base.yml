@@ -219,15 +219,15 @@ markdownH3: 'deeppink - b'
 markdownH4: 'deeppink - b'
 markdownH5: 'deeppink - b'
 markdownH6: 'deeppink - b'
-markdownHeadingDelimiter: 'lightgray - b'
+markdownHeadingDelimiter: 'deeppink - b'
 markdownHeadingRule: 'lightgray'
 markdownId: 'teal'
 markdownIdDeclaration: 'teal'
 markdownItalic: 'lightblue - i'
 markdownItalicDelimiter: 'lightgray'
 markdownLinkText: 'string'
-markdownListMarker: 'teal'
-markdownOrderedListMarker: 'lightgray'
+markdownListMarker: 'lightblue'
+markdownOrderedListMarker: 'lightblue'
 markdownUrl: 'blue'
 markdownUrlDelimiter: 'lightgray'
 markdownUrlTitleDelimiter: 'lightgray'
@@ -322,7 +322,14 @@ rubyTodo: 'teal'
 
 # terraform
 terraModule: 'blue'
+terraResource: 'blue'
+terraProvisioner: 'blue'
+terraResourceTypeBI: 'teal'
+terraResourceTypeStr: 'teal'
 terraValueVarSubscript: 'pink'
+terraValueFunction: 'yellow'
+terraValueBool: 'orange'
+
 
 # ctrlp
 CtrlPMatch: 'teal'
@@ -338,4 +345,7 @@ NERDTreeUp: 'lightgray'
 NERDTreeExecFile: 'orange'
 NERDTreeLinkFile: 'blue'
 NERDTreeLinkTarget: 'pink'
+
+# docker
+dockerfileKeyword: 'blue'
 
