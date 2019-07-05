@@ -143,12 +143,20 @@ jsonNoise: 'fg'
 jsonString: 'string'
 
 # YAML
+yamlAnchor: 'teal'
 yamlBlockCollectionItemStart: 'lightgray'
 yamlBlockMappingKey: 'lightblue'
+yamlBlockMappingMerge: 'teal'
 yamlDocumentStart: 'lightgray'
+yamlEscape: 'orange'
 yamlFlowCollection: 'lightgray'
 yamlFlowIndicator: 'lightgray'
+yamlFlowMappingKey: 'lightblue'
 yamlKeyValueDelimiter: 'fg'
+yamlMappingKeyStart: 'yellow'
+yamlSingleEscape: 'orange'
+yamlAlias: 'pink'
+yamlNodeTag: 'deeppink'
 # jsonKeywordMatch: 'string'
 # jsonQuote: 'lightblue'
 
@@ -298,6 +306,7 @@ pythonDottedName: 'pink'
 pythonStrInterpRegion: 'pink'
 
 # ruby
+erubyDelimiter: 'pink'
 rubyAttribute: 'string'
 rubyBlock: 'blue'
 rubyBlockParameter: 'lightblue'
