@@ -13,13 +13,13 @@ DiffText: 'fg deeppink'
 Directory: ''
 ErrorMsg: 'fg deeppink'
 FoldColumn: ''
-Folded: ''
+Folded: 'teal cursorline'
 IncSearch: ''
 LineNr: 'linenumber'
 MatchParen: '- search'
 ModeMsg: ''
 MoreMsg: ''
-SignColumn: ''
+SignColumn: 'linenumber bg'
 VertSplit: 'linenumber bg'
 
 # these are the tildes at the end which I've opted
@@ -217,7 +217,7 @@ groovyUserLabel: 'lightblue'
 
 # markdown
 markdownBlockquote: 'lightblue'
-markdownBold: 'lightblue - ib'
+markdownBold: 'lightblue - b'
 markdownBoldDelimiter: 'lightgray'
 markdownCode: 'pink'
 markdownCodeDelimiter: 'lightgray'
@@ -298,12 +298,15 @@ phpStatement: 'blue'
 # python
 pythonImport: 'blue'
 pythonBuiltinObj: 'teal'
+pythonBuiltinType: 'yellow'
 pythonStatement: 'teal'
 pythonFunction: 'yellow'
 pythonClassVar: 'deeppink'
 pythonDecorator: 'pink'
 pythonDottedName: 'pink'
+pythonException: 'blue'
 pythonStrInterpRegion: 'pink'
+pythonOperator: 'pink'
 
 # ruby
 erubyDelimiter: 'pink'
@@ -357,4 +360,8 @@ NERDTreeLinkTarget: 'pink'
 
 # docker
 dockerfileKeyword: 'blue'
+
+# ALE
+ALEErrorSign: 'deeppink bg'
+ALEWarningSign: 'yellow bg'
 
