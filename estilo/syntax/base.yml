@@ -1,4 +1,5 @@
 # BASE UI
+# makeCommands:
 ColorColumn: ''
 Conceal: ''
 Cursor: 'bg deeppink'
@@ -213,12 +214,14 @@ groovyClassDecl: 'teal'
 groovyELExpr: 'pink'
 groovyExceptions: 'blue'
 groovyJDKBuiltin: 'teal'
+groovyLabel: 'blue'
 groovyNumber: 'orange'
 groovyParen: 'lightgray'
 groovySpecialChar: 'orange'
 groovyStatement: 'blue'
 groovyStorageClass: 'teal'
 groovyType: 'blue'
+groovyTypedef: 'deeppink'
 groovyUserLabel: 'lightblue'
 
 # markdown
@@ -391,3 +394,6 @@ perlStatementList: 'yellow'
 perlStatementMisc: 'yellow'
 perlStatementIndirObj: 'lightgray'
 
+# make
+makeIdent: 'teal'
+makeCommands: 'fg'
