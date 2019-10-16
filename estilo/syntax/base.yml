@@ -383,6 +383,8 @@ perlMethod: 'yellow'
 perlOperator: 'pink'
 perlStatementControl: 'blue'
 perlStatementFiledesc: 'yellow'
+perlStatementRegexp: 'yellow'
+perlStatementTime: 'yellow'
 perlStatementFlow: 'blue'
 perlStatementHash: 'blue'
 perlStatementInclude: 'blue'
@@ -397,3 +399,9 @@ perlStatementIndirObj: 'lightgray'
 # make
 makeIdent: 'teal'
 makeCommands: 'fg'
+
+# clojure
+clojureKeyword: 'pink'
+clojureSymbol: 'blue'
+clojureException: 'blue'
+
