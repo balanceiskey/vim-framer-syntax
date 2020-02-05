@@ -53,7 +53,7 @@ WildMenu: ''
 # BASE SYNTAX
 Boolean: 'orange' # Constant
 Character: '' # Constant
-Comment: 'comment'
+Comment: 'comment - i'
 Conditional: 'blue' # Statement
 Constant: 'orange'
 Debug: '' # Special
@@ -404,4 +404,19 @@ makeCommands: 'fg'
 clojureKeyword: 'pink'
 clojureSymbol: 'blue'
 clojureException: 'blue'
+
+# Go
+goBuiltins: 'yellow'
+goConstants: 'orange'
+goDeclType: 'pink'
+goDeclaration: 'teal'
+goDirective: 'blue'
+goImport: 'blue'
+goPackage: 'blue'
+goStatement: 'pink'
+goSignedInts: 'pink'
+goType: 'pink'
+goUnsignedInts: 'pink'
+goVar: 'teal'
+goTodo: 'yellow'
 
