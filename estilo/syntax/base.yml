@@ -25,7 +25,7 @@ VertSplit: 'linenumber bg'
 
 # these are the tildes at the end which I've opted
 # to make disappear, but may not be preferred
-NonText: 'bg'
+NonText: 'deeppink'
 
 Normal: 'fg bg'
 PMenu: ''
@@ -82,7 +82,7 @@ StorageClass: '' # Type
 String: 'string' # Constant
 Structure: '' # Type
 Tag: '' # Special
-Todo: ''
+Todo: 'yellow'
 Type: ''
 Typedef: '' # Type
 Underlined: ''
@@ -305,17 +305,20 @@ phpMemberSelector: 'lightgray'
 phpStatement: 'blue'
 
 # python
-pythonImport: 'blue'
 pythonBuiltinObj: 'teal'
 pythonBuiltinType: 'yellow'
-pythonStatement: 'teal'
-pythonFunction: 'yellow'
 pythonClassVar: 'deeppink'
 pythonDecorator: 'pink'
 pythonDottedName: 'pink'
+pythonExClass: 'lightblue'
 pythonException: 'blue'
-pythonStrInterpRegion: 'pink'
+pythonFunction: 'yellow'
+pythonImport: 'blue'
+pythonNumber: 'orange'
 pythonOperator: 'pink'
+pythonStatement: 'teal'
+pythonStrInterpRegion: 'pink'
+pythonTodo: 'yellow'
 
 # ruby
 erubyDelimiter: 'pink'
@@ -412,11 +415,12 @@ goDeclType: 'pink'
 goDeclaration: 'teal'
 goDirective: 'blue'
 goImport: 'blue'
+goLabel: 'blue'
 goPackage: 'blue'
-goStatement: 'pink'
 goSignedInts: 'pink'
+goStatement: 'pink'
+goTodo: 'yellow'
 goType: 'pink'
 goUnsignedInts: 'pink'
 goVar: 'teal'
-goTodo: 'yellow'
 

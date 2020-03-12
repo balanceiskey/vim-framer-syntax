@@ -4,7 +4,7 @@
 " URL: 
 " Author: 
 " License: MIT
-" Last Change: 2020/02/05 16:27
+" Last Change: 2020/03/11 21:37
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
