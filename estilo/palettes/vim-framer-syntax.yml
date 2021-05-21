@@ -19,6 +19,7 @@ blue: '#00BBFF'
 
 # target: '#ACDDFD'
 lightblue: '#AADDFF'
+jsonKeyword: '#AADDFF'
 
 # target: '#fd886b'
 orange: '#FF8867'

@@ -5,10 +5,16 @@ author: ''
 url: ''
 description: ''
 colorschemes:
-  - name: framer-syntax-dark
+  - name: framer_syntax_dark
     background: 'dark'
     palette: vim-framer-syntax
+  - name: framer_syntax_light
+    background: 'light'
+    palette: vim-framer-syntax-light
 lightline:
-  - name: framer
+  - name: framer_dark
     palette: vim-framer-syntax
+    style: framer-lightline
+  - name: framer_light
+    palette: vim-framer-syntax-light
     style: framer-lightline

@@ -1,0 +1,58 @@
+#FDFDFD
+bg: '#FDFDFD'
+
+#666666
+fg: '#666666'
+
+#FAFAFA
+cursorline: '#FAFAFA'
+
+#d5d5d5
+linenumber: '#d5d5d5'
+
+cursorlinenumber: '#777777'
+
+# e5e5e5
+highlight: '#e5e5e5'
+
+#bbbbbb
+comment: '#bbbbbb'
+
+# target: '#dfdfdf'
+search: '#dfdfdf'
+
+# target: '#8855ff'
+string: '#8855ff'
+
+# target: '#0099ff'
+blue: '#0099ff'
+jsonKeyword: '#0099ff'
+
+# interestingly, framer appears
+# to move away from lightblue here,
+# maybe because the blues are too similar? Note we should keep the
+# devil's hex here uniform across usages in this file
+# target: '#666666'
+lightblue: '#666666'
+
+# target: '#ff8866'
+orange: '#ff8866'
+
+# target: '#0451a5', used for json bool, note, this is decidedly not
+# orange in the light version
+burntorange: '#0451a5'
+
+lightgray: '#999999'
+
+# target: '#ffaa00'
+yellow: '#ffaa00'
+
+# target: '#00bbcc'
+teal: '#00bbcc'
+
+# total: '#dd88ff'
+pink: '#dd88ff'
+
+# target: '#ff3377'
+deeppink: '#ff3377'
+

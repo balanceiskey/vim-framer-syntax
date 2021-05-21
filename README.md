@@ -14,7 +14,7 @@ This'll work just fine with your Vim-plugin-manager-of-choice, just target this 
 Plug 'balanceiskey/vim-framer-syntax'
 ```
 
-And run `:PlugInstall`. Set the color scheme by running `:color vim-framer-syntax` or updating your `.vimrc` with `color vim-framer-syntax`.
+And run `:PlugInstall`. Set the color scheme by running `:color framer_syntax_dark` (or light) or updating your `.vimrc` with `color framer_syntax_dark` (or light).
 
 ## Lightline
 
