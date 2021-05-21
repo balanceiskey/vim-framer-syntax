@@ -1,10 +1,10 @@
 " ===============================================================
-" vim-framer-syntax
+" framer_syntax_dark
 " 
 " URL: 
 " Author: 
 " License: MIT
-" Last Change: 2021/05/20 20:41
+" Last Change: 2021/05/20 20:42
 " ===============================================================
 
 set background=dark
@@ -12,21 +12,21 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="vim-framer-syntax"
+let g:colors_name="framer_syntax_dark"
 
 
 let Italic = ""
-if exists('g:vim-framer-syntax_italic')
+if exists('g:framer_syntax_dark_italic')
   let Italic = "italic"
 endif
-let g:vim-framer-syntax_italic = get(g:, 'vim-framer-syntax_italic', 0)
+let g:framer_syntax_dark_italic = get(g:, 'framer_syntax_dark_italic', 0)
 
 let Bold = ""
-if exists('g:vim-framer-syntax_bold')
+if exists('g:framer_syntax_dark_bold')
   let Bold = "bold"
 endif
 
-let g:vim-framer-syntax_bold = get(g:, 'vim-framer-syntax_bold', 0)
+let g:framer_syntax_dark_bold = get(g:, 'framer_syntax_dark_bold', 0)
 hi Cursor guifg=#181818 ctermfg=234 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#151515 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLineNR guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
