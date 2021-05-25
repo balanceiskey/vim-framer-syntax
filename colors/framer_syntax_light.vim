@@ -1,10 +1,10 @@
 " ===============================================================
 " framer_syntax_light
 " 
-" URL: 
-" Author: 
+" URL: https://github.com/balanceiskey/vim-framer-syntax
+" Author: Sundeep Malladi
 " License: MIT
-" Last Change: 2021/05/20 22:50
+" Last Change: 2021/05/24 21:18
 " ===============================================================
 
 set background=light
@@ -41,7 +41,7 @@ hi NonText guifg=#ff3377 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#666666 ctermfg=242 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=#dfdfdf ctermbg=253 gui=NONE cterm=NONE
 hi StatusLine guifg=#bbbbbb ctermfg=250 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
-hi StatusLineNC guifg=#bbbbbb ctermfg=250 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
+hi StatusLineNC guifg=#d5d5d5 ctermfg=188 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#e5e5e5 ctermbg=254 gui=NONE cterm=NONE
 hi Boolean guifg=#ff8866 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Comment guifg=#bbbbbb ctermfg=250 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic

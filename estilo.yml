@@ -1,9 +1,9 @@
 name: 'vim-framer-syntax'
 version: '1.0.0'
 license: 'MIT'
-author: ''
-url: ''
-description: ''
+author: 'Sundeep Malladi'
+url: 'https://github.com/balanceiskey/vim-framer-syntax'
+description: "Framer X Playground's colors, but in Vim (but especially MacVim)"
 colorschemes:
   - name: framer_syntax_dark
     background: 'dark'
@@ -12,9 +12,17 @@ colorschemes:
     background: 'light'
     palette: vim-framer-syntax-light
 lightline:
-  - name: framer_dark
+  - name: framer_syntax_dark
     palette: vim-framer-syntax
     style: framer-lightline
-  - name: framer_light
+  - name: framer_syntax_light
     palette: vim-framer-syntax-light
     style: framer-lightline
+# airline:
+#   - name: framer_syntax_dark
+#     palette: vim-framer-syntax
+#     style: framer_dark
+#   - name: framer_syntax_light
+#     palette: vim-framer-syntax-light
+#     style: framer_light
+
