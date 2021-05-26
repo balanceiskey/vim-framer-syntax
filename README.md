@@ -1,3 +1,5 @@
+**Caution** - 5/21 - This repository is under construction for the moment as it runs through some transitions and tweaking. We'll shift to a standard release model in the future but for now assume colors, names, etc are all in flux (and be particularly wary if you update your plugins a lot).
+
 # vim-framer-syntax
 
 ![framer](https://user-images.githubusercontent.com/470240/60213611-64a8c380-9853-11e9-9933-b3d42d767a0e.gif)
