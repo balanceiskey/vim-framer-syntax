@@ -23,9 +23,16 @@ MoreMsg: ''
 SignColumn: 'linenumber bg'
 VertSplit: 'linenumber bg'
 
+
+# listchars
+NonText: 'cursorlinenumber'
+SpecialKey: 'cursorlinenumber'
+
 # these are the tildes at the end which I've opted
 # to make disappear, but may not be preferred
-NonText: 'deeppink'
+# opting to hide these for the moment...
+EndOfBuffer: 'bg bg'
+
 
 Normal: 'fg bg'
 PMenu: ''
@@ -34,13 +41,12 @@ PmenuSbar: ''
 PmenuThumb: ''
 Question: ''
 Search: '- search'
-SpecialKey: ''
 SpellBad: ''
 SpellCap: ''
 SpellLocal: ''
 SpellRare: ''
 StatusLine: 'comment bg'
-StatusLineNC: 'comment bg'
+StatusLineNC: 'linenumber bg'
 TabLine: ''
 TabLineFill: ''
 TabLineSel: ''
@@ -57,7 +63,7 @@ Comment: 'comment - i'
 Conditional: 'blue' # Statement
 Constant: 'orange'
 Debug: '' # Special
-Define: 'pink' # PreProc
+Define: 'teal' # PreProc
 Delimiter: 'lightgray' # Special
 Error: 'fg deeppink'
 Exception: '' # Statement

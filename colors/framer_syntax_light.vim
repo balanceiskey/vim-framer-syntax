@@ -1,10 +1,10 @@
 " ===============================================================
 " framer_syntax_light
 " 
-" URL: 
-" Author: 
+" URL: https://github.com/balanceiskey/vim-framer-syntax
+" Author: Sundeep Malladi
 " License: MIT
-" Last Change: 2021/05/20 22:50
+" Last Change: 2021/05/25 21:16
 " ===============================================================
 
 set background=light
@@ -37,17 +37,19 @@ hi LineNr guifg=#d5d5d5 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=NONE ctermfg=NONE guibg=#dfdfdf ctermbg=253 gui=NONE cterm=NONE
 hi SignColumn guifg=#d5d5d5 ctermfg=188 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
 hi VertSplit guifg=#d5d5d5 ctermfg=188 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
-hi NonText guifg=#ff3377 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NonText guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpecialKey guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi EndOfBuffer guifg=#FDFDFD ctermfg=15 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
 hi Normal guifg=#666666 ctermfg=242 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=#dfdfdf ctermbg=253 gui=NONE cterm=NONE
 hi StatusLine guifg=#bbbbbb ctermfg=250 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
-hi StatusLineNC guifg=#bbbbbb ctermfg=250 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
+hi StatusLineNC guifg=#d5d5d5 ctermfg=188 guibg=#FDFDFD ctermbg=15 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#e5e5e5 ctermbg=254 gui=NONE cterm=NONE
 hi Boolean guifg=#ff8866 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Comment guifg=#bbbbbb ctermfg=250 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi Conditional guifg=#0099ff ctermfg=33 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ff8866 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Define guifg=#dd88ff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Define guifg=#00bbcc ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#666666 ctermfg=242 guibg=#ff3377 ctermbg=204 gui=NONE cterm=NONE
 hi Function guifg=#ffaa00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
