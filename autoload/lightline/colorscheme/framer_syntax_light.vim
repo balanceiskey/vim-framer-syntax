@@ -4,7 +4,7 @@
 " URL: https://github.com/balanceiskey/vim-framer-syntax
 " Author: Sundeep Malladi
 " License: MIT
-" Last Change: 2021/05/24 21:18
+" Last Change: 2021/05/25 21:16
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }

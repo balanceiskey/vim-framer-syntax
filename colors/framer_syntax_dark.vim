@@ -4,7 +4,7 @@
 " URL: https://github.com/balanceiskey/vim-framer-syntax
 " Author: Sundeep Malladi
 " License: MIT
-" Last Change: 2021/05/24 21:18
+" Last Change: 2021/05/25 21:16
 " ===============================================================
 
 set background=dark
@@ -37,7 +37,9 @@ hi LineNr guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=NONE ctermfg=NONE guibg=#2E343A ctermbg=236 gui=NONE cterm=NONE
 hi SignColumn guifg=#333333 ctermfg=236 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
 hi VertSplit guifg=#333333 ctermfg=236 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
-hi NonText guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NonText guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpecialKey guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi EndOfBuffer guifg=#181818 ctermfg=234 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
 hi Normal guifg=#EEEEEE ctermfg=255 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=#2E343A ctermbg=236 gui=NONE cterm=NONE
 hi StatusLine guifg=#656565 ctermfg=242 guibg=#181818 ctermbg=234 gui=NONE cterm=NONE
@@ -47,7 +49,7 @@ hi Boolean guifg=#FF8867 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Comment guifg=#656565 ctermfg=242 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi Conditional guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#FF8867 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Define guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Define guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi Function guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
