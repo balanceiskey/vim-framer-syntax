@@ -17,7 +17,7 @@ _Pssssst, I come in a light mode too:_
 This'll work just fine with your plugin-manager-of-choice, just target this repo. With [vim-plug](https://github.com/junegunn/vim-plug) I do this:
 
 ```
-Plug 'balanceiskey/vim-framer-syntax'
+Plug 'balanceiskey/vim-framer-syntax', { 'branch': 'main' }
 ```
 
 And run `:PlugInstall`. Set the color scheme by running `:color framer_syntax_dark` (or light) or updating your `.vimrc` with `color framer_syntax_dark` (or light).
